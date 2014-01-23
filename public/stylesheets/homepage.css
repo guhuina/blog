@@ -186,7 +186,8 @@ p a {
     display: none;
   }
 }
-.form{ width: 500px; margin: 0 auto!important;}
+.form{ width: 500px; margin: 100px auto!important;}
 @media only screen and (max-width : 1000px) {
 
 }
+.masthead{ min-height: 550px;}
