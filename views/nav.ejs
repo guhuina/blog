@@ -1,0 +1,17 @@
+
+<div class="inverted secondary pointing ui menu">
+	
+	<div class="header item">Luna's blog</div>
+	<div class="right menu">
+	  
+	  <a class="item" href="/">home</a>
+	  <% if(user){ %>
+	  	<a class="item" href="/post">post</a>
+	  	<a href="/upload" class="item">upload</a>
+	  	<a href="/logout" class="item">logout</a>
+	  <% }else{ %>
+	  	<a class="item" href="/login">login</a>
+	  	<a href="/reg" class="item">register</a>
+	  <% } %>
+	</div>
+</div>

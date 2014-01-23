@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<% include header %>
+</head>
+<body id="home">
+  
+  <div class="ui inverted page grid masthead segment">
+    <div class="column">
+      <% include nav %>
+      <img src="images/cat.png" class="ui medium image">
+      <div class="ui hidden transition information">
+        <form method='post' action='/upload' enctype='multipart/form-data' >
+          <input type="file" name='file1'/><br>
+          <input type="file" name='file2'/><br>
+          <input type="file" name='file3'/><br>
+          <input type="file" name='file4'/><br>
+          <input type="file" name='file5'/><br>
+          <input type="submit" />
+        </form>                
+      </div>
+    </div>
+  </div>
+  
+<% include footer %>
+</body>
+</html>
